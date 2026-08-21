@@ -70,13 +70,15 @@ layout: default
     {% endif %}
 
     <!-- Social -->
-    {% comment %} {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+    {% comment %}
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">{% social_links %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %} {% endcomment %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      {% endif %}
+    {% endcomment %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% if site.plugins contains 'al_newsletter' %}
