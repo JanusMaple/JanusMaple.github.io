@@ -37,6 +37,44 @@ nav_order: 2
 </style>
 
 <h2 class="research-heading">
+  <span>FoMo-FD: Flow-Matching World Models for Surgical Robot Failure Detection</span>
+  <a
+    class="research-badge"
+    href="https://arxiv.org/abs/2607.27511"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Preprint ↗</a>
+</h2>
+
+_Feb 2026 – Jul 2026_
+
+<video
+autoplay
+muted
+loop
+playsinline
+preload="metadata"
+style="width: 48%; float: right; margin-left: 0.5rem; margin-bottom: 0.5rem; border-radius: 3px;"
+
+>
+
+  <source src="/assets/video/FoMoFD.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+This project studied **runtime detection of low-level execution failures in surgical robot imitation policies without requiring failure data for training**. Rather than assuming predefined failure types, we detect whether the realized visual dynamics over a recent execution window deviate from the nominal dynamics expected under the commanded actions.
+
+I developed **FoMo-FD**, an action-conditioned flow-matching latent world model that predicts visual dynamics over temporal windows. Failure signals are obtained through **inverse transport** between expected and observed dynamics, with detection thresholds determined by **conformal calibration**.
+
+<p style="font-size: 0.9rem; color: #666;">
+  <strong>Z. Huang</strong>, Y. Cai, A. Patel, M. Hajiha, B. Browne, and Y. Chen,
+  “Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling,”
+  <em>arXiv preprint arXiv:2607.27511</em>, 2026. 
+</p>
+
+<div style="clear: both;"></div>
+
+<h2 class="research-heading">
   <span>Autonomous Self-Reconfiguration Planning for Continuum Modular Robots</span>
   <a
     class="research-badge"
@@ -53,6 +91,7 @@ autoplay
 muted
 loop
 playsinline
+preload="metadata"
 style="width: 48%; float: right; margin-left: 0.5rem; margin-bottom: 0.5rem; border-radius: 3px;"
 
 >
@@ -87,6 +126,7 @@ autoplay
 muted
 loop
 playsinline
+preload="metadata"
 style="width: 40%; float: right; margin-left: 2rem; margin-bottom: 1rem; border-radius: 6px;"
 
 >
@@ -112,6 +152,7 @@ autoplay
 muted
 loop
 playsinline
+preload="metadata"
 style="width: 42%; float: right; margin-left: 2rem; margin-bottom: 1rem; border-radius: 6px;"
 
 >
