@@ -8,7 +8,50 @@
         --global-theme-color: #d19a2a !important;
         --global-hover-color: #a87312 !important;
       }
-    </style> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Zhefeng</span> Huang </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">home </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">research </a> </li> <li class="nav-item active"> <a class="nav-link" href="/fun/">fun <span class="sr-only">(current)</span> </a> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">fun</h1> <p class="post-description"></p> </header> <article> <p>Fun stuff coming soon.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Zhefeng Huang. </div> </footer> <script>
+    </style> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Zhefeng</span> Huang </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">home </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">research </a> </li> <li class="nav-item active"> <a class="nav-link" href="/fun/">fun <span class="sr-only">(current)</span> </a> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">fun</h1> <p class="post-description"></p> </header> <article> <style>
+  .post-header {
+    display: none;
+  }
+
+  .fun-project-heading {
+    display: block;
+  }
+
+  .fun-badge {
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 0.4rem;
+    padding: 0.12rem 0.45rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--global-theme-color) !important;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 0.3rem;
+    text-decoration: none !important;
+    vertical-align: middle;
+  }
+
+  .fun-badge:hover {
+    color: white !important;
+    background: var(--global-theme-color);
+  }
+
+  .fun-section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #666;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;
+  }
+
+    .fun-project-heading {
+    font-size: 1.9rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+  }
+</style> <h2 class="fun-section-title">Some Fun Projects</h2> <h3 class="fun-project-heading"> Local MCTS Motion Planning <a class="fun-badge" href="https://github.com/JanusMaple/MCTSMP" target="_blank" rel="noopener noreferrer">Code ↗</a> </h3> <video autoplay="" muted="" loop="" playsinline="" preload="metadata" style="width: 48%; float: right; margin-left: 0.8rem; margin-bottom: 0.5rem; border-radius: 3px;"> <source src="/assets/video/MCTS_Plan.mp4" type="video/mp4"></source> Your browser does not support the video tag. </video> <p>A small project I built for my Robotics Ph.D. qualifying exam. I explored <strong>local motion planning with passively deformable obstacles</strong>, where limited contact may be useful rather than treated as an immediate collision.</p> <p>I implemented an <strong>MCTS-based local planner for a non-holonomic mobile robot</strong>. In the simplified prototype, the robot can push an obstacle while exploring a route, continue if the path opens, or <strong>retreat and replan when the deformation limit is reached</strong>. The idea was motivated by settings such as ICUs, where objects like tubing may tolerate limited contact but hazardous deformation should be avoided.</p> <div style="clear: both;"></div> <h3 class="fun-project-heading"> Procedural Trees &amp; Creatures </h3> <p><em><a href="https://faculty.cc.gatech.edu/~turk/pcg/index.html" rel="external nofollow noopener" target="_blank">CS 8803: Procedural Content Generation</a> · <a href="https://faculty.cc.gatech.edu/~turk/" rel="external nofollow noopener" target="_blank">Prof. Greg Turk</a></em></p> <video autoplay="" muted="" loop="" playsinline="" preload="metadata" style="width: 24%; float: right; margin-left: 1rem; margin-bottom: 0.5rem; border-radius: 3px;"> <source src="/assets/video/PCG.mp4" type="video/mp4"></source> Your browser does not support the video tag. </video> <p>Two course projects exploring <strong>procedural content generation</strong> in <strong>Unity</strong>. For trees, I implemented randomized growth rules supporting <strong>willow-like, plagiotropic, and orthotropic structures</strong>, with controllable branching, tropism, leaf layouts, and age-dependent growth. I also added <strong>obstacle-aware generation</strong>, allowing branches to adapt their growth around geometric obstacles.</p> <p>For creatures, I used the <strong>Marching Cubes algorithm</strong> to generate continuous meshes with shared vertices for smooth normals and color transitions. Random seeds vary body proportions, colors, eyes, and accessories, including animated halos, horns, and eye styles. The torso and legs form a single mesh. And I do think they are very cute.</p> <div style="clear: both;"></div> <h2 class="fun-section-title">A Few Other Things</h2> <p>More coming soon.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Zhefeng Huang. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
