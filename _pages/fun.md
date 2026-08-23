@@ -111,4 +111,26 @@ For creatures, I used the **Marching Cubes algorithm** to generate continuous me
 
 <h2 class="fun-section-title">A Few Other Things</h2>
 
-More coming soon.
+<h3 class="fun-project-heading">
+  Track & Field
+</h3>
+
+<video
+autoplay
+muted
+loop
+playsinline
+preload="metadata"
+style="width: 20%; float: right; margin-left: 1rem; margin-bottom: 0.5rem; border-radius: 3px;"
+
+>
+
+  <source src="/assets/video/tack_and_field.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+I competed in high jump throughout my undergraduate years at Tsinghua and served as **vice captain of the student (non-varsity) track and field team**. I won the **Men's Group A high jump title at the Ma John Cup three years in a row**. My personal best is **1.80 m (about 5 ft 11 in)** — the video shows it.
+
+I also competed in the **Men's Group A hurdles**, winning my preliminary heat and finishing **third overall**. Please also enjoy my rather questionable hurdling technique in the video — perhaps as an example of what not to do: don't jump over the hurdles like I did; run over them.
+
+<div style="clear: both;"></div>
