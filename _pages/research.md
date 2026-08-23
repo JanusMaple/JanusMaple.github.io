@@ -82,6 +82,12 @@ I developed **FoMo-FD**, an action-conditioned flow-matching latent world model 
     target="_blank"
     rel="noopener noreferrer"
   >Paper ↗</a>
+  <a
+    class="research-badge"
+    href="https://github.com/JanusMaple/CMRRP"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Code ↗</a>
 </h2>
 
 _Apr 2025 – Jan 2026_
