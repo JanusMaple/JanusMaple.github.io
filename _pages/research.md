@@ -44,6 +44,12 @@ nav_order: 2
     target="_blank"
     rel="noopener noreferrer"
   >Preprint ↗</a>
+  <a
+    class="research-badge"
+    href="https://openreview.net/forum?id=8GPLTO5ROF"
+    target="_blank"
+    rel="noopener noreferrer"
+  >IROS '26 WS ↗</a>
 </h2>
 
 _Feb 2026 – Jul 2026_
@@ -88,6 +94,12 @@ I developed **FoMo-FD**, an action-conditioned flow-matching latent world model 
     target="_blank"
     rel="noopener noreferrer"
   >Code ↗</a>
+  <a
+    class="research-badge"
+    href="https://geometric-representations-robotics-ws.github.io/IROS2026_Accepted_Papers_and_Teasers/01_Geometric-Topological_Self-Reconfiguration/01_Geometric-Topological_Self-Reconfiguration__camera-ready.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >IROS '26 WS ↗</a>
 </h2>
 
 _Apr 2025 – Jan 2026_
