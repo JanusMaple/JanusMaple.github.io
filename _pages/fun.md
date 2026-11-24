@@ -129,7 +129,7 @@ For creatures, I used the **Marching Cubes algorithm** to generate continuous me
 
 I was in a Pop-Tarts ad filmed for the **Pop-Tarts Bowl**. Using a surgical robot, I set out to answer the ultimate question: is it better to eat the crust first or split a Pop-Tart in half to achieve the perfect balance between the aroma of the filling and the scent of freshly broken frosting?
 
-Sadly, the experiment was cut short by a force majeure event: **[Buzz](https://en.wikipedia.org/wiki/Buzz_(mascot))** showed up and stole all the Pop-Tarts.
+Sadly, the experiment was cut short by a force majeure event: **[Buzz](<https://en.wikipedia.org/wiki/Buzz_(mascot)>)** showed up and stole all the Pop-Tarts.
 
 <div style="clear: both;"></div>
 
