@@ -43,7 +43,13 @@ nav_order: 2
     href="https://arxiv.org/abs/2607.27511"
     target="_blank"
     rel="noopener noreferrer"
-  >Preprint ↗</a>
+  >Paper ↗</a>
+  <a
+    class="research-badge"
+    href="https://janusmaple.github.io/FoMoFD/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Project ↗</a>
   <a
     class="research-badge"
     href="https://openreview.net/forum?id=8GPLTO5ROF"
@@ -75,7 +81,7 @@ I developed **FoMo-FD**, an action-conditioned flow-matching latent world model 
 <p style="font-size: 0.9rem; color: #666;">
   <strong>Z. Huang</strong>, Y. Cai, A. Patel, M. Hajiha, B. Browne, and Y. Chen,
   “Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling,”
-  <em>arXiv preprint arXiv:2607.27511</em>, 2026. 
+  <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2026. <strong>Accepted for publication.</strong> arXiv:2607.27511.
 </p>
 
 <div style="clear: both;"></div>

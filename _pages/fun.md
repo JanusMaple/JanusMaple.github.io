@@ -112,6 +112,28 @@ For creatures, I used the **Marching Cubes algorithm** to generate continuous me
 <h2 class="fun-section-title">A Few Other Things</h2>
 
 <h3 class="fun-project-heading">
+  Pop-Tarts Bowl Ad
+  <a
+    class="fun-badge"
+    href="https://www.youtube.com/watch?v=gXEWZUT5W54"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Watch ↗</a>
+</h3>
+
+<a href="https://www.youtube.com/watch?v=gXEWZUT5W54" target="_blank" rel="noopener noreferrer">
+  <img src="{{ '/assets/img/pop_tart.png' | relative_url }}"
+       alt="Watch the Pop-Tarts Bowl ad on YouTube"
+       style="width: 24%; float: right; margin-left: 0.8rem; margin-bottom: 0.5rem; border-radius: 3px;">
+</a>
+
+I was in a Pop-Tarts ad filmed for the **Pop-Tarts Bowl**. Using a surgical robot, I set out to answer the ultimate question: is it better to eat the crust first or split a Pop-Tart in half to achieve the perfect balance between the aroma of the filling and the scent of freshly broken frosting?
+
+Sadly, the experiment was cut short by a force majeure event: **[Buzz](https://en.wikipedia.org/wiki/Buzz_(mascot))** showed up and stole all the Pop-Tarts.
+
+<div style="clear: both;"></div>
+
+<h3 class="fun-project-heading">
   Track & Field
 </h3>
 
